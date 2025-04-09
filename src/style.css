@@ -1,5 +1,51 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    margin-top: 50px;
+}
+.carta {
+    background-color: white;
+    width: 500px;
+    height: 750px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 300px;
+}
+
+.iconoarriba {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 150px;
+}
+
+.derecha {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 150px;
+}
+
+.iconoarriba,
+.derecha {
+  line-height: 1;
+  display: inline-block;
+}
+
+.generador {
+    border-radius: 50px;
 }
